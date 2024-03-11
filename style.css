@@ -1,0 +1,205 @@
+@font-face {
+    font-family:gil;
+    src: url(./download.woff2);
+}
+@font-face {
+    font-family: gil2;
+    src: url(./Signifier-LightItalic.woff2);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#main{ 
+    height: 100%; 
+    width: 100%; 
+    position: relative; 
+    background-color: #000; 
+    display: flex; 
+} 
+#textc{ 
+    position: absolute; 
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%,-50%); 
+    font-size: 40px; 
+    font-weight: 200; 
+    color: #fff; 
+} 
+#s1{ 
+    position: absolute; 
+    left:20%; 
+    color: #fff;
+} 
+#nav{ 
+    margin-top: 20px; 
+    padding: 10px 62px; 
+    position: absolute; 
+    height: 15vh; 
+    width: 100%; 
+    background-color: transparent;   
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+} 
+#onef{ 
+   color: #fff; 
+   font-size: 25px; 
+   font-weight: 600; 
+   margin-left: 15%;
+} 
+#menu{ 
+    font-size: 25px; 
+    color: #fff; 
+} 
+#insta{ 
+    font-size: 25px; 
+    color: #fff; 
+} 
+#left1{ 
+    width: 50%; 
+    display: flex; 
+    /* justify-content: center;  */
+    /* align-items: center;  */
+    overflow: hidden; 
+
+} 
+#right1{ 
+    width: 50%; 
+    display: flex; 
+    /* justify-content: center;
+    align-items: center;   */
+    overflow: hidden; 
+}
+#img22{
+    width: 50vw;
+}
+
+
+
+#page2{
+    min-height: 100%;
+    width: 100%;
+    background-color:white;
+    position: relative;
+}
+#img1{
+    position: absolute;
+    top: 20%;
+    left: 67%;
+    height: 43vh;
+}
+#img2{
+    position: absolute;
+    top: 2%;
+    left: 60%;
+    height: 35vh;
+}
+#txt1{
+    top: 80%;
+    font-size: 36px;
+    word-spacing: 1px;
+    letter-spacing: 1px;
+    position: absolute;
+    left: 12%;
+    font-family: gil;
+}
+#txt2{
+    top: 73%;
+    left: 33%;
+    font-size:36px;
+    font-weight: 500;
+    position: absolute;
+    font-family: gil;
+}
+span{
+    font-family: gil2;
+    color: red;
+}
+#page3{
+    margin-top: 30vh;
+    width: 100%;
+    position: relative;
+}
+#tx{
+    height: 25vh;
+    position: relative;
+}
+h1{
+    position: absolute;
+    top: 27%;
+    color: red;
+    font-family: gil2;
+    font-weight: 400;
+    left: 32%;
+    font-size: 30px;
+    
+}
+hr{
+    opacity: 0.2;
+    background-color: black;
+}
+h2{
+    position: absolute;
+    left: 38%;
+    top: 57%;
+    color: blue;
+    font-family: gil;
+    font-weight: 50;
+    font-size: 15px;
+
+}
+#black{
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    background-color: #111;
+    margin-top: 10vh;
+}
+#last{
+    position: relative;
+    background-color: black;
+    width: 100%;
+    height: 38vh;
+}
+#lastimg{
+    position: absolute;
+    height: 300%;
+    width: 10%;
+    top: 20%;
+    
+}
+pre{
+    color: white;
+    font-family: gil;
+    font-size: 14px;
+    left: 25%;
+    top: 10% ;
+    position: absolute;
+    font-weight: 599;
+    line-height: 23px;
+}
+#line{
+    position: absolute;
+    height: 0.1vh;
+    width: 75vw;
+    top: 72%;
+    left: 12.5%;
+    opacity: 0.3;
+    background-color: white;
+}
+#khtm{
+    top: 31vh;
+    position: absolute;
+    left: 32%;
+    font-weight: 599;
+    font-size: 13px;
+    color:white;
+
+
+}
